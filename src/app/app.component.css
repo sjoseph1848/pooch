@@ -47,5 +47,25 @@
 }
 
 .login-card {
+  border-radius: 30px;
   max-width: 400px;
+  background-color: rgb(56, 182, 255);
 }
+
+mat-card-title {
+
+  color:rgb(255, 102, 196);
+  padding:0;
+}
+
+mat-input-element {
+  color:white;
+}
+
+button {
+  background-color:black;
+  color:rgb(255, 102, 196);
+}
+
+
+
