@@ -45,3 +45,7 @@
 .example-container > * {
   width: 100%;
 }
+
+.login-card {
+  max-width: 400px;
+}
