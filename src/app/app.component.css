@@ -1,71 +1,15 @@
 /* Style the video: 100% width and height to cover the entire window */
+.bg { 
+  /* The image used */
+  background-image: url('../assets/pup.jpg');
 
-#video-background {
-  position:fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height:100%;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-/* .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 50%;
-  height: 50%;
-  
-} */
-
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -150px;
-  align-self: baseline; 
-  flex: 1 1 0%; 
-  box-sizing: border-box;
-  color: #310736;
-  cursor: pointer;
-  width: 50%;
-  height: 50%;
-
-}
-.example-container {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-}
-
-.example-container > * {
-  width: 100%;
-}
-
-.login-card {
-  border-radius: 30px;
-  max-width: 400px;
-  background-color: rgb(56, 182, 255);
-}
-
-mat-card-title {
-
-  color:rgb(255, 102, 196);
-  padding:0;
-}
-
-mat-input-element {
-  color:white;
-}
-
-button {
-  background-color:black;
-  color:rgb(255, 102, 196);
-}
-
 
 

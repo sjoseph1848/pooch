@@ -9,13 +9,10 @@ import { ErrorComponent } from './error/error.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    public  username:  string  =  "";
-    public  password:  string  =  "";
+    
 
-  constructor(private  dialog:  MatDialog) {}
+  constructor() {}
 
-  login(){
-    console.log("You hit the login")
-  }
+  
 
 }
